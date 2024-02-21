@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="https://kit.fontawesome.com/28faa9840b.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        
+        <div class="logo-container">
+            <img src="multimedia/logo.jpg" alt="logo">
+        </div><div class="background-img-portrait">
+            <img src="https://imgcom.masterd.es/49/blog/2023/02/42507.jpeg" alt="fondo">
+        </div>
+    </section>
+    <section>
+        <div class="info-container">
+            <ul class="ul-container">
+                <li class="li-item ">
+                    <i class="fa-brands fa-whatsapp icons"></i>
+                    <a href="#">WhatsApp</a>
+                </li>
+                <li class="li-item ">
+                    <i class="fa-solid fa-phone icons"></i>
+                    <a href="#">244 104 3578</a>
+                </li>
+                <li class="li-item ">
+                    <i class="fa-brands fa-facebook icons"></i>
+                    <a href="#">Facebook</a>
+                </li>
+                <li class="li-item ">
+                    <i class="fa-brands fa-instagram icons"></i>
+                    <a href="#">Instagram</a>
+                </li>
+                <li class="li-item ">
+                    <i class="fa-solid fa-location-dot icons"></i>
+                    <a href="#">Ubicación</a>
+                </li>
+                <li class="li-item ">
+                    <i class="fa-solid fa-calendar icons"></i>
+                    <a href="#">Horarios</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section><!-- Google Calendar Appointment Scheduling begin -->
+        <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+        <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+        <script>
+        (function() {
+          var target = document.currentScript;
+          window.addEventListener('load', function() {
+            calendar.schedulingButton.load({
+              url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1MRURapwr6FTlgiMY8XXoOoXEiXy3gwXHpbTlzmAWWppBlDKXY2RTOwZqe5vB1hSbR-UTgoBcn?gv=true',
+              color: '#039BE5',
+              label: 'Reservar una cita',
+              target,
+            });
+          });
+        })();
+        </script>
+        <!-- end Google Calendar Appointment Scheduling --></section>
+    <section>
+        <!-- Google Calendar Appointment Scheduling begin -->
+        <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1MRURapwr6FTlgiMY8XXoOoXEiXy3gwXHpbTlzmAWWppBlDKXY2RTOwZqe5vB1hSbR-UTgoBcn?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
+        <!-- end Google Calendar Appointment Scheduling -->
+    </section>
+</body>
+</html>
