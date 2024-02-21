@@ -18,16 +18,34 @@ section {
 .background-img-portrait {
     position: absolute;
     z-index: 1;
-    top: 10px;
+    top: 0px;
     overflow: hidden;
     height: 240px;
 }
 .background-img-portrait > img {
     height: 120%;
 }
+
+.info-section {
+    text-align: center;
+    border-bottom: 2px solid grey;
+    border-radius: 8px;
+    width: 90%;
+    margin: auto;
+    transition: .4s background;
+}.info-section > h2 {
+    transition: .3s transform;
+}
+.info-section:active {
+    background-color: #aaa;
+}
+.info-section:active > h2 {
+    transform: scale(.8);
+}
+
 .info-container {
     background: #026;
-    height: 400px;
+    height: 250px;
     width: 90%;
     margin: auto;
     color: #fff;
@@ -37,14 +55,15 @@ section {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     height: 100%;
+    grid-gap: 10px;
 }
 .li-item {
     list-style: none;
-    border: 3px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 100%;
 }
 .icons {
     font-size: 45px;
