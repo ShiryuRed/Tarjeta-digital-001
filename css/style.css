@@ -13,6 +13,9 @@ section {
     margin-top: 20px;
     z-index: 100;
     position: relative;
+}.logo-container > img {
+    height: 100%;
+    width: 100%;
 }
 
 .background-img-portrait {
